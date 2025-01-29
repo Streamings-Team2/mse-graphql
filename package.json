@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "ts-node-dev --respawn ./src/index.ts",
-    "generate": "graphql-codegen"
+    "generate": "graphql-codegen",
+    "build": "tsc",
+    "start": "node dist/index.js"
   },
   "author": "Nicolas Cifuentes",
   "license": "ISC",
