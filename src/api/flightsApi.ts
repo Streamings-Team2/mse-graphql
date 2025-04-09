@@ -3,7 +3,7 @@ import { FlightModel, Params } from "../models/models";
 import { buildParms } from "../helpers/buildParams";
 
 export class FlightsApi extends RESTDataSource {
-  baseURL = "https://64c3f84c67cfdca3b660848e.mockapi.io/";
+  baseURL = "http://54.165.225.122:400/";
 
   getAllFlightsInfo() {
     return this.get<FlightModel[]>(`flight`);
